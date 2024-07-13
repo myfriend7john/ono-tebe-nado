@@ -62,7 +62,6 @@
 .cover {
     position: relative;
     max-width: 1100px;
-    max-height:757px;
     padding: 0px 50px 0px 50px;
     background: url(../images/cover.jpg) center/cover;
     color: white;
@@ -127,8 +126,7 @@
 }
 
 .bet-button {
-    width: 256px;
-    height: 51px;
+    font-family: "Raleway", sans-serif;
     font-size: 22px;
     font-weight: 500;
     padding: 12px 32px;
@@ -180,20 +178,18 @@
     height: 100%;
     color: white;
     padding: 52px 40px 0 40px;
+    z-index:-1;
 }
 
 .card_type_film {
-    z-index:-1;
     background: url(../images/card-lot-01.jpg) center/cover;
 }
 
 .card_type_book {
-    z-index:-1;
     background: url(../images/card-lot-02.jpg) center/cover;
 }
 
 .card_type_picture {
-    z-index:-1;
     background: url(../images/card-lot-03.jpg) center/cover;
 }
 
